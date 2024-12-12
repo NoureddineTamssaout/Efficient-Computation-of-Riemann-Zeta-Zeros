@@ -13,15 +13,10 @@ This project implements an optimized numerical approach to compute the zeros of 
 
 ## Requirements
 
-### Compilers
-- GCC with OpenMP support.
-- Intel `icpx` Compiler (recommended for best performance).
-
-
-### Libraries
 - OpenMP
 - Standard C++17 or higher
-
+- Intel `icpx` Compiler (recommended for best performance).
+  
 ## Usage
 
 ### Compilation
