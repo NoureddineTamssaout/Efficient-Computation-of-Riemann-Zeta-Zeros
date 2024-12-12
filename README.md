@@ -40,4 +40,4 @@ Run the compiled program with:
 
 - **START**: Lower bound of the range.  
 - **END**: Upper bound of the range.  
-- **SAMPLING**: Sampling rate.
+- **SAMPLING**: Sampling rate (resolution).
