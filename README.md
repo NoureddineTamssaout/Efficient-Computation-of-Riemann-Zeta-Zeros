@@ -11,13 +11,6 @@ This project implements an optimized numerical approach to compute the zeros of 
 - **Precision**: Employs the Riemann-Siegel formula for accurate evaluation.
 - **Scalability**: Handles large computational ranges with high resolution.
 
-## File Structure
-
-- **`CodeRiemannOptimise.cpp`**: Main C++ implementation file containing:
-  - Functions for Z-function evaluation.
-  - OpenMP-enabled parallel loops.
-  - Zero counting functionality.
-
 ## Requirements
 
 ### Compilers
@@ -39,8 +32,6 @@ To compile with GCC:
 To compile with Intel `icpx`:  
 `icpx -qopenmp -O3 CodeRiemannOptimise.cpp -o CodeRiemannOptimise_icpx`
 
-To compile with ARM `armclang++`:  
-`armclang++ -O3 -fopenmp CodeRiemannOptimise.cpp -o CodeRiemannOptimise_arm`
 
 ### Execution
 
@@ -49,4 +40,4 @@ Run the compiled program with:
 
 - **START**: Lower bound of the range.  
 - **END**: Upper bound of the range.  
-- **SAMPLING**: Sampling rate (resolution).
+- **SAMPLING**: Sampling rate.
